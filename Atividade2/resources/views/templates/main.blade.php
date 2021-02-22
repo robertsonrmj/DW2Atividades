@@ -35,7 +35,7 @@
         <hr>
     </body>
     <footer>
-        <b>&copy;2020 - Robertson Mendes Junior.</b>
+        <b>&copy;2021 - Robertson Mendes Junior.</b>
     </footer>
 <script src='{{asset ('js/app./js')}}' type='text.javascript'></script>
 </html>
