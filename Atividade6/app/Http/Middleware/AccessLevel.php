@@ -16,11 +16,9 @@ class AccessLevel
      */
     public function handle($request, Closure $next)
     {
-        $nivel = 1;
-       
+        $nivel = 0;
 
         $rota = $request->route()->getName();
-        Log::debug($rota);
 
         if($rota != "restrito") {
 
